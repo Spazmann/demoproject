@@ -1,0 +1,17 @@
+extends layout
+
+block maincontent
+  h1= title
+  p Welcome to #{title}
+  p
+  div 
+    p#test_paragraph is this nested yet
+      a(
+        id="edm_link",
+        href = "https://en.wikipedia.org/wiki/EDM"
+      ) EDM info
+  p.
+    Time to manage some employees!!!
+    Here you can find all of your favorite 
+    EDM features and peformers
+  p.not_multiline Here is some nested content
